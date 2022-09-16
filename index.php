@@ -20,13 +20,3 @@ try{
 catch(RouteException $e){
    exit($e -> getMessage());
 }
-// $s = new Settings;
-// p_arr($a->combProps(BuySettings::class));
-
-// $allProps=[];
-// foreach(Settings::class as $proper => $item){
-//     $property = BuySettings::get($proper);
-//     $allProps[$proper] = $property;
-
-//   }
-// p_arr($allProps);
